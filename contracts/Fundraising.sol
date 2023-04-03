@@ -14,9 +14,9 @@ contract FundRaising{
     mapping(address => Donation[]) donations;
     uint256 totalRaised;
 
-    constructor(address _tokenAddress, uint _fundRaisingId){
+    constructor(ClaverToken _token, uint _fundRaisingId){
         owner = msg.sender;
-        token = ClaverToken(_tokenAddress);
+        token = _token;
         fundraisingState = FundRaisingState.Active;
         fundRaisingId = _fundRaisingId;
     }
