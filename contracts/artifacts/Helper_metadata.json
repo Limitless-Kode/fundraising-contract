@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "generateRandomNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Helper.sol": "Helper"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Helper.sol": {
+			"keccak256": "0xf1bfd32f56a22ca181fa93d30ed1e10218951e7db6ed90b50f84d6b0592e3e00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b707d98ad2b3e756485c087ab78d7a92e9cf505d3c22c5788316d261afc0f5dc",
+				"dweb:/ipfs/QmaUtWhnjudkS2cHSacWKLdTX1eisCYkPQPAnDW5jpXG5T"
+			]
+		}
+	},
+	"version": 1
+}
